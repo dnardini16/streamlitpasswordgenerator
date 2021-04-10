@@ -1,12 +1,14 @@
 import streamlit as st
 from createPassword import createPWD
+import io
+from PIL import Image
 
 # Author: Davide Nardini 2021
 
 def runApp():
 
     col1,col2,col3,col4,col5 = st.beta_columns(5)
-    col3.image("lock_ale.png")
+    col3.image("lock.jpg")
 
     st.markdown("<h1 style='text-align: center; color: #000000; font-family: cursive'> PASSWORD GENERATOR </h1>", unsafe_allow_html = True) 
     st.markdown(" ")
